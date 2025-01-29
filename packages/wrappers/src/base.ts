@@ -111,19 +111,7 @@ export class BaseWrapper {
           );
         }
       } catch (error: any) {
-        if (!Settings.ADDON_PROXY) {
           throw error;
-        }
-        const dispatcher = new ProxyAgent(Settings.ADDON_PROXY);
-        console.error(
-          `|ERR| wrappers > base > ${this.addonName}: Got error: ${error.message} when fetching from ${sanitisedUrl}, trying with proxy instead`
-        );
-        response = await uFetch(url, {
-          dispatcher,
-          method: 'GET',
-          headers: headers,
-          signal: controller.signal,
-        });
       }
 
       clearTimeout(timeout);
