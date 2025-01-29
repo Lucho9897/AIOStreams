@@ -375,7 +375,7 @@ npm run deploy:cloudflare-worker
 
 ## Disclaimer 
 
-AIOStreams and its developer do not host, store, or distribute any content that is found using this addon. All content is sourced from publicly available addons. AIOStreams does not endorse or promote piracy in any form. It is the user's responsibility to ensure that their use of this addon is in compliance with their local laws and regulations. aa
+AIOStreams and its developer do not host, store, or distribute any content that is found using this addon. All content is sourced from publicly available addons. AIOStreams does not endorse or promote piracy in any form. It is the user's responsibility to ensure that their use of this addon is in compliance with their local laws and regulations. aaa
 
 ## Credits
 
