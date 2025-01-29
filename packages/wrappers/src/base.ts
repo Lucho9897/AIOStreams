@@ -13,7 +13,6 @@ import {
   serviceDetails,
   Settings,
 } from '@aiostreams/utils';
-import { fetch as uFetch, ProxyAgent } from 'undici';
 import { emojiToLanguage, codeToLanguage } from '@aiostreams/formatters';
 
 export class BaseWrapper {
